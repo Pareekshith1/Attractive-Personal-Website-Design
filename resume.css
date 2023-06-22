@@ -1,0 +1,175 @@
+
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url(4.png);
+        background-color: white;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+
+      }
+      .left {
+        width: 50%;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        top:300px;
+        right: 50px;
+        float: left;
+        opacity: 0;
+        transform: translateX(-50%);
+        animation: slide-in-left 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+      .right {
+        width: 50%;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        bottom:230px;
+        left:50px;
+        float: right;
+        opacity: 0;
+        background-color: transparent;
+        transform: translateX(50%);
+        animation: slide-in-right 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+      .barrier {
+       width:5px;
+       height:530px;
+       position: relative;
+       top:130px;
+       background-color: aqua;
+       position:relative;
+       left:730px;
+       
+      }
+      
+      h1 {
+        font-size: 24px;
+        margin-top: 0;
+      }
+
+      #p1{
+        color: white;
+      }
+
+      #p2{
+        color: white;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #008080;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      button:hover {
+        background-color: #006666;
+      }
+
+      #topper{
+        height:80px;
+        width:100%;
+        background:black;
+        position:fixed; top:0%; right:0.1px;
+       backface-visibility: 0.5px;
+        
+    } 
+    
+    #timg{
+        position:relative;
+        width:90px;
+        height:60px;
+        top:5px;
+        left:60px;
+        
+    }
+    
+    #hding{
+        position:relative;
+        left: 170px;
+        font-size: 25px;
+        bottom:45px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aqua;
+    }
+    
+    #home{
+        position:relative;
+        left: 600px;
+        bottom: 90px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+    }
+    
+    #about{
+        position:relative;
+        left:730px;
+        bottom:132px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white
+    }
+    
+    #resume{
+        position:relative;
+        left:850px;
+        bottom:175px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    
+    #funtivity{
+        position:relative;
+        left:980px;
+        bottom:217px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    a {
+      color: white ;
+      text-decoration: none;
+  }
+
+      @keyframes slide-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-50%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      @keyframes slide-in-right {
+        0% {
+          opacity: 0;
+          transform: translateX(50%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      @keyframes scale-in {
+        0% {
+          opacity: 0;
+          transform: scaleX(0);
+        }
+        100% {
+          opacity: 1;
+          transform: scaleX(1);
+        }
+
+       
+      }
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="landing.css">
+        <title>Web-Developer</title>
+
+    </head>
+
+    <body id="bod">
+        <img src="mylog.png" id="log">
+        <h1 id="wd">WEB-DEVELOPER</h1>
+
+        <form action="./send_email.php" method="post" onsubmit="return validateEmail()">
+            <input type="email" id="eml" class="same" name="email" placeholder="example@gmail.com" required>
+            <button type="submit" id="btngs" class="same">Get Started</button>
+        </form>
+              
+       
+        <script src="landing.js"></script>
+    </body>
+    
+</html>

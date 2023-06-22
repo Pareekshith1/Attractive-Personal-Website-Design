@@ -1,0 +1,62 @@
+#bod{
+    background-image: url("mainback.png");
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#wd{
+    position:relative;
+    color:aqua;
+    position:relative;
+    top:120px;
+    left: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px; 
+    
+    
+   
+}
+
+.same{
+    position:relative;
+    left:140px;
+    top:100px;
+    
+}
+
+#eml{
+    width:200px;
+    height:20px;
+    border-radius: 20px 0px 0px 20px;
+    border-color: transparent;
+    padding:5px 5px 5px 5px;
+    
+   
+    
+    
+}
+
+#btngs{
+    border-radius: 0px 20px 20px 0px;
+    padding:7px 7px 7px 7px;
+    position:relative;
+    border-color: transparent;
+    right:6px;
+    background-color: aqua;
+    transition: ease-in;
+    
+    
+   
+
+}
+
+#log{
+    position:relative;
+    top:160px;
+    left:200px;
+    width:150px;
+    height:100px;
+}
+
+
+
