@@ -1,6 +1,5 @@
 # 📌 Attractive Personal Website Design
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Project+Banner)  
 *A sleek, modern, and fully responsive personal website template designed for portfolios and resumes.*
 
 ## 🚀 Live Demo
@@ -22,10 +21,6 @@ This project is a **modern and visually appealing personal website template** de
 ## 📸 Screenshots
 ### 🌟 Desktop View
 ![Desktop Screenshot](https://via.placeholder.com/1000x600?text=Desktop+View)
-
-### 📱 Mobile View
-![Mobile Screenshot](https://via.placeholder.com/400x700?text=Mobile+View)
-
 *(Replace these with actual screenshots of your website.)*
 
 ## 🛠️ Tech Stack
@@ -69,7 +64,6 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 ---
 🔹 **Author:** [Pareekshith1](https://github.com/Pareekshith1)  
-🔹 **Connect on LinkedIn:** *(Add your LinkedIn profile link if applicable)*
 
 📩 For any questions, feel free to reach out via the contact form on the website!
 
