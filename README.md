@@ -38,9 +38,4 @@ This project can be deployed using GitHub Pages, Vercel, Netlify, or any static 
 - Dark mode implementation.  
 
 ## License  
-This project is licensed under the [MIT License](LICENSE).  
-
-## Contact  
-For inquiries or feedback, please reach out via:  
-- **GitHub:** [Pareekshith1](https://github.com/Pareekshith1)  
-- **Email:** [your-email@example.com]  
+This project is licensed under the [MIT License](LICENSE).   
